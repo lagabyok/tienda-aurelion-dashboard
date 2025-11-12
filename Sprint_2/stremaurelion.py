@@ -56,7 +56,7 @@ st.markdown("""
 # =============================================================
 # --- CARGA DE DATOS ---
 # =============================================================
-df = pd.read_csv("data_final/ventas_completas.csv")
+df = pd.read_csv("data_finalSprint_2/productos_categorias_normalizadas.csv")
 
 # =============================================================
 # --- TÍTULO Y MÉTRICAS ---
