@@ -187,7 +187,7 @@ else:
 st.markdown("---")
 st.subheader("📅 Correlación entre Día del Mes e Importe Promedio")
 
-df2 = pd.read_csv("data_final/productos_categorias_normalizadas.csv")
+df2 = pd.read_csv("Sprint_2/productos_categorias_normalizadas.csv")
 df2['fecha'] = pd.to_datetime(df2['fecha'])
 df2['dia_del_mes'] = df2['fecha'].dt.day
 
